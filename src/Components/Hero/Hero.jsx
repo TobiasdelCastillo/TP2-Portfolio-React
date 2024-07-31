@@ -23,40 +23,52 @@ function Hero(){
         // <!-- fin del hero -->
         <>
 
-        <Box w='100' h='800' 
+        <Box w='100' h='800' id='home'
         fontFamily='"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'
         background='url(https://github.com/TobiasdelCastillo/TP2-Portfolio-React/blob/main/public/bgi2.jpg?raw=true)'
         backgroundSize='cover'>
             <Flex alignItems='center' justifyContent='center'>
                 <VStack>
                     <Image
-                        mt={150}
+                        mt={154}
                         borderRadius='100'
                         boxSize='163px'
                         src='https://tobiasdelcastillo.github.io/TP1---Portfolio/img/Captura.JPG'
                         alt='Dan Abramov'
                         />
 
-                    <Heading as='h1' mb={-15} color='#F68906'>TOBÍAS DEL CASTILLO</Heading>
-                    <Text color='#fff'>DESARROLLADOR WEB</Text>
+                    <Heading as='h1' mt={10} mb={-8} color='#F68906' fontWeight='bold'  fontSize={35}>TOBÍAS DEL CASTILLO</Heading>
+                    <Text color='#fff' mb={11}>DESARROLLADOR WEB</Text>
                     <HStack spacing={19}>
                         <Link href="https://www.instagram.com/tobiasdc_/">
-                            <Icon color='#fff' fontSize='1.6em'>
+                            <Icon color='#fff' fontSize='1.6em'  transition='0.3s color'_hover={{
+                                color:'#555555',
+
+                            }}>
                             <FaInstagram />
                             </Icon>
                         </Link>
-                        <Link href="https://www.linkedin.com/in/tob%C3%ADas-del-castillo-b289b12a4/">
-                            <Icon color='#fff' fontSize='1.6em'>
+                        <Link  href="https://www.linkedin.com/in/tob%C3%ADas-del-castillo-b289b12a4/">
+                            <Icon  color='#fff' fontSize='1.6em' transition='0.3s color'_hover={{
+                                color:'#555555',
+
+                            }}>
                             <FaLinkedin />
                             </Icon>
                         </Link>
                         <Link href="https://github.com/TobiasdelCastillo">
-                            <Icon color='#fff' fontSize='1.6em'>
+                            <Icon color='#fff' fontSize='1.6em' transition='0.3s color'_hover={{
+                                color:'#555555',
+
+                            }}>
                             <FaGithub />
                             </Icon>
                         </Link>
                         <Link href="https://discord.com/channels/@me">
-                            <Icon color='#fff' fontSize='1.6em'>
+                            <Icon color='#fff' fontSize='1.6em' transition='0.3s color'_hover={{
+                                color:'#555555',
+
+                            }}>
                             <FaDiscord />
                             </Icon>
                         </Link>
