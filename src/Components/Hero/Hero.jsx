@@ -8,19 +8,7 @@ function Hero(){
 
     return(
 
-        // <!-- inicio del hero -->
-        // <section id="inicio" class="hero">            
-        //     <img src="img/Captura.JPG" alt="">
-        //     <h2 class="nombre">TOBÍAS DEL CASTILLO</h2>
-        //     <h3>DESARROLLADOR WEB</h3>
-        //     <div class="logos">                
-        //         <a href="https://www.instagram.com/tobiasdc_/"><i class="bi bi-instagram"></i></a>
-        //         <a href="https://www.linkedin.com/in/tob%C3%ADas-del-castillo-b289b12a4/"><i class="bi bi-linkedin"></i></a>
-        //         <a href="https://github.com/TobiasdelCastillo"><i class="bi bi-git"></i></a>
-        //         <a href="https://discord.com/channels/@me"><i class="bi bi-discord"></i></a>
-        //     </div>
-        // </section>
-        // <!-- fin del hero -->
+
         <>
 
         <Box w='100' h='800' id='home'

@@ -14,7 +14,7 @@ function About(){
         //     </div>
         // </section>
         // <!-- fin del about -->
-        <Box p={120}>
+        <Box p={120} id="about">
             <Flex alignItems='center' justifyContent='center'>
             <HStack >
             <Box boxSize='400px' mr={60}>
