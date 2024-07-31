@@ -11,7 +11,7 @@ function Hero(){
 
         <>
 
-        <Box w='100' h='800' id='home'
+        <Box maxWidth='100%' h='800' id='home'
         fontFamily='"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'
         background='url(https://github.com/TobiasdelCastillo/TP2-Portfolio-React/blob/main/public/bgi2.jpg?raw=true)'
         backgroundSize='cover'>

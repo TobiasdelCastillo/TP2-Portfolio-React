@@ -1,46 +1,41 @@
 import { Box, Heading, Text,Flex, Link } from '@chakra-ui/react'
 import { useState } from 'react'
 
-function Header() {
 
+function Header() {
+    const breakpoints = {
+        base: '0em', // 0px
+        sm: '30em', // ~480px. em is a relative unit and is dependant on the font size.
+        md: '48em', // ~768px
+        lg: '62em', // ~992px
+        xl: '80em', // ~1280px
+        '2xl': '96em', // ~1536px
+    }
 
 
     return(
-    //     <header>
-    //     <div class="logo">
-    //         <h3 class="lh">{sonny}</h3>
-    //     </div>
-    //         <section>
-    // //         <nav class="buttoms">
-    // //             <a href="#inicio" class="seccion s1">Inicio</a>
-    // //             <a href="#sobremi" class="seccion s2">Sobre mi</a>
-    // //             <a href="#habil" class="seccion s3">Habilidades</a>
-    // //             <a href="#proyect" class="seccion s4">Proyectos</a>
-    // //             <a href="#servicio" class="seccion s4">Servicios</a>
-    // //             <a href="#contactos" class="seccion s5">Contacto</a>
-    // //         </nav>
-    // //     </section>
-    //      </header>
-
-
 
 
         <>
-        <Box as='header' bg='#ffff' w='100%' fontFamily='"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'>
-            <Flex alignItems='center' justifyContent='space-between' mr={70}>
+        <Box  pr={120}
+        as='header' bg='#ffff' w='100%'
+        fontFamily='"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'>
+            <Flex 
+            alignItems='center' justifyContent='space-between'>
 
-                <Text as='b'color='#ff8a00' p={12} fontSize='1.4em' ml={90}>sonny</Text>
+                <Text as='b' color='#ff8a00' p='25px' fontSize='1.4em'  >sonny</Text>
 
-                <Flex as='nav' mr='5.5em' color='#555555'
+                <Flex w={{md:'30%'}}
+                as='nav'  color='#555555'
                 fontSize='0.97em'fontFamily='"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;' 
                 textDecoration="none"
-                letterSpacing='0.08em' m={14} p={20} gap={30}>
+                letterSpacing='0.08em'   gap={30}>
                     <Link as='a' href='#home'scrollBehavior='smooth' 
                     transition='0.3s' 
                     _hover={{
                         color:'#ff8a00',
                         borderBottom:'0.2em solid #ff8a00'
-                    }}>Inicio</Link>
+                    }} >Inicio</Link>
                     <Link as='a' href='#about'scrollBehavior='smooth'
                         transition='0.3s' 
                         _hover={{

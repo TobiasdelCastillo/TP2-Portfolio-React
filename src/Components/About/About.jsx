@@ -3,10 +3,10 @@ import { Box, Flex, HStack, Image, Heading, VStack, Text, Button, ChakraProvider
 function About(){
     return(
 
-        <Box p={120} id="about">
+        <Box p={20} id="about">
             <Flex alignItems='center' justifyContent='center'>
             <HStack >
-            <Box boxSize='400px' mr={60}>
+            <Box boxSize={{lg:'300px'}}  >
                 <Image src='https://github.com/TobiasdelCastillo/TP2-Portfolio-React/blob/main/public/about.jpg?raw=true' alt='Dan Abramov' />
             </Box>
             <Box>

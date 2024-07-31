@@ -15,12 +15,12 @@ function Services(){
         bgSize='cover'
         fontFamily='"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;'
         >
-            <VStack>
+            <VStack >
 
                     <Heading pt={95} fontSize={32} mb={20} color='#ff8a00' fontWeight='bold'>MIS SERVICIOS</Heading>
                     <Text mb={90} color='#fff'  >Estos son algunos de los servicios que soy capaz de brindar si estas dispuesto a trabajar conmigo!</Text>
 
-                <HStack spacing={80}>
+                <HStack width='100%' justifyContent='center' >
                     <Box>
                     <Box  w='250px' h='150px' bgColor='#5555' pl={100} pt={30}>
                         <Icon w='80px' h='80px' color='#ff8a00' transition='0.3s color' _hover={{
