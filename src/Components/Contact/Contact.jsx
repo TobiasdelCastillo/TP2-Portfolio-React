@@ -20,32 +20,40 @@ function Contact(){
 
     return(
 
-        <Flex alignItems='center' justifyContent='center' m={140}  id="#contact">
+        <Flex alignItems='center' justifyContent='center' m={140} id="contact" className="contact">
 
 
         <Box w='400px' mr={100}>
             <Flex >
                 <VStack alignItems='start'>
-                    <Heading color='#ff8a00' fontSize='2em' >Contactame</Heading>
+                    <Heading color='#ff8a00' fontSize='2em' fontWeight='bold'>Contactame</Heading>
                     <Text color='#555555' mb={35}>Si te interesó mi portfolio y estas interesado en trabajar conmigo o tienes alguna consulta no dudes en contactarme! Aqui abajo te dejo otras formas de comunicarme.</Text>
                     <HStack spacing={19}>
                         <Link href="https://www.instagram.com/tobiasdc_/">
-                            <Icon color='#555555' fontSize='1.6em'>
+                            <Icon color='#555555' fontSize='1.6em' transition='0.3s color' _hover={{
+                                color:'#ff8a00'
+                            }}>
                             <FaInstagram />
                             </Icon>
                         </Link>
                         <Link href="https://www.linkedin.com/in/tob%C3%ADas-del-castillo-b289b12a4/">
-                            <Icon color='#555555' fontSize='1.6em'>
+                            <Icon color='#555555' fontSize='1.6em' transition='0.3s color' _hover={{
+                                color:'#ff8a00'
+                            }}>
                             <FaLinkedin />
                             </Icon>
                         </Link>
                         <Link href="https://github.com/TobiasdelCastillo">
-                            <Icon color='#555555' fontSize='1.6em'>
+                            <Icon color='#555555' fontSize='1.6em' transition='0.3s color' _hover={{
+                                color:'#ff8a00'
+                            }}>
                             <FaGithub />
                             </Icon>
                         </Link>
                         <Link href="https://discord.com/channels/@me">
-                            <Icon color='#555555' fontSize='1.6em'>
+                            <Icon color='#555555' fontSize='1.6em' transition='0.3s color' _hover={{
+                                color:'#ff8a00'
+                            }}>
                             <FaDiscord />
                             </Icon>
                         </Link>
