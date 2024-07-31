@@ -2,18 +2,7 @@ import { Box, Flex, HStack, Image, Heading, VStack, Text, Button, ChakraProvider
 
 function About(){
     return(
-        // <!-- inicio del about -->
-        // <section id="sobremi" class="about">
-        //     <div>
-        //         <img src="img/aboutimg.jpg" alt="">
-        //         <div class="contenido">                    
-        //             <h2>SOBRE MI</h2>
-        //             <p>Mi nombre es Tobías del Castillo, tengo 20 años y soy de Córdoba, Argentina. Actualmente estoy estudiando Ingeniería en Sistemas de Información en la Universidad Técnologica Nacional y un curso de Desarrollo Web Full Stack. En el secundario aprendí programación por primera vez a través de MikroC y Arduino.</p>
-        //             <a href="">Descargar Curriculum</a>
-        //         </div>
-        //     </div>
-        // </section>
-        // <!-- fin del about -->
+
         <Box p={120} id="about">
             <Flex alignItems='center' justifyContent='center'>
             <HStack >

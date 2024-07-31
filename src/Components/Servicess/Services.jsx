@@ -10,7 +10,7 @@ function Services(){
     return(
 
         
-        <Box  h={700} 
+        <Box  h={700} id="service"
         bg='url(https://github.com/TobiasdelCastillo/TP2-Portfolio-React/blob/main/public/bgi3.jpg?raw=true)' 
         bgSize='cover'
         fontFamily='"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;'
